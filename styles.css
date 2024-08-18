@@ -195,7 +195,7 @@
   margin-top: 100px;
   width: 100%;
   height: 520px;
-  background-image: url("/images/group-picture.jpg"); /* Replace with your image URL */
+  background-image: url("group-picture.jpg"); /* Replace with your image URL */
   background-size: cover;
   background-position: top;
   opacity: 0.9;
