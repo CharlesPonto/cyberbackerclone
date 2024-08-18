@@ -1,0 +1,231 @@
+/* Media Queries */
+@media (min-width: 768px) {
+  #red {
+    margin-left: 130px;
+  }
+}
+/*FOR DIMENSION  only*/
+@media (max-width: 535px) and (min-width: 477px) {
+  #btn-applyNow {
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .fpage-title {
+    font-size: 30px !important;
+  }
+  .bg-image{
+    margin-top: 130px !important;
+  }  
+  .fpage-button{
+    font-size: 15px !important;
+  }
+  .fpage-statement{
+    font-size: 19px !important;
+  }
+  .fpage-worldwide{
+    font-size: 15px !important;
+  }
+  .fpage-details{
+    margin-top: 250px !important;
+  }
+}
+
+@media (max-width: 476px) and (min-width: 389px) {
+  #btn-applyNow {
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .fpage-title {
+    font-size: 26px !important;
+  }
+  .bg-image{
+    margin-top: 130px !important;
+  }  
+  .fpage-button{
+    font-size: 15px !important;
+    display: inline-block;
+    width: 100%;
+  }
+  .fpage-statement{
+    font-size: 16px !important;
+  }
+  .fpage-worldwide{
+    font-size: 15px !important;
+  }
+  .fpage-details{
+    margin-top: 260px !important;
+  }
+}
+
+@media (max-width: 388px) and (min-width: 200px) {
+  #btn-applyNow {
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .fpage-title {
+    font-size: 24px !important;
+  }
+  .bg-image{
+    margin-top: 130px !important;
+  }  
+  .fpage-button{
+    font-size: 15px !important;
+    display: inline-block;
+    width: 100%;
+  }
+  .fpage-statement{
+    font-size: 15px !important;
+  }
+  .fpage-worldwide{
+    font-size: 15px !important;
+  }
+  .fpage-details{
+    margin-top: 230px !important;
+  }
+}
+@media (max-width: 332px){
+  #red{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  #red {
+    margin-left: 370px;
+  }
+}
+/*FOR DIMENSION 769-991*/
+@media (min-width: 769px) and (max-width: 991px) {
+  .fpage-title {
+    font-size: 55px !important;
+  }
+  .fpage-statement {
+    font-size: 21px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #red {
+    margin-left: 550px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 536px) {
+  #btn-applyNow {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .bg-image {
+    margin-top: 150px !important;
+    height: 450px !important;
+  }
+  .fpage-details {
+    margin-top: 215px !important;
+  }
+  .fpage-title {
+    font-size: 39px !important;
+  }
+  .fpage-statement {
+    font-size: 18px !important;
+  }
+  .fpage-button {
+    font-size: 20px !important;
+  }
+  .fpage-worldwide {
+    font-size: 20px !important;
+  }
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+/* Navbar Hover Effect */
+#nav-hover-effect::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ca2b2b;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#nav-hover-effect:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/*FIRST SECTION*/
+/* Background Image */
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 100px;
+  width: 100%;
+  height: 520px;
+  background-image: url("/images/group-picture.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: top;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+/* Title and Statement Styles */
+.fpage-title {
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 170px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.fpage-statement {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.fpage-worldwide {
+  font-size: 26px;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+}
+
+button {
+  justify-items: center;
+}
