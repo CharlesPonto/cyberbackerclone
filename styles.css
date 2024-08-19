@@ -1,59 +1,7 @@
 /* Media Queries */
-@media (min-width: 768px) {
+@media (max-width: 332px) {
   #red {
-    margin-left: 130px;
-  }
-}
-/*FOR DIMENSION  only*/
-@media (max-width: 535px) and (min-width: 477px) {
-  #btn-applyNow {
-    width: 100% !important;
-    margin-top: 15px;
-  }
-  .fpage-title {
-    font-size: 30px !important;
-  }
-  .bg-image{
-    margin-top: 130px !important;
-  }  
-  .fpage-button{
-    font-size: 15px !important;
-  }
-  .fpage-statement{
-    font-size: 19px !important;
-  }
-  .fpage-worldwide{
-    font-size: 15px !important;
-  }
-  .fpage-details{
-    margin-top: 250px !important;
-  }
-}
-
-@media (max-width: 476px) and (min-width: 389px) {
-  #btn-applyNow {
-    width: 100% !important;
-    margin-top: 15px;
-  }
-  .fpage-title {
-    font-size: 26px !important;
-  }
-  .bg-image{
-    margin-top: 130px !important;
-  }  
-  .fpage-button{
-    font-size: 15px !important;
-    display: inline-block;
-    width: 100%;
-  }
-  .fpage-statement{
-    font-size: 16px !important;
-  }
-  .fpage-worldwide{
-    font-size: 15px !important;
-  }
-  .fpage-details{
-    margin-top: 240px !important;
+    font-size: 14px;
   }
 }
 
@@ -65,48 +13,74 @@
   .fpage-title {
     font-size: 24px !important;
   }
-  .bg-image{
+  .bg-image {
     margin-top: 130px !important;
-  }  
-  .fpage-button{
+  }
+  .fpage-button {
     font-size: 15px !important;
     display: inline-block;
     width: 100%;
   }
-  .fpage-statement{
+  .fpage-statement {
     font-size: 15px !important;
   }
-  .fpage-worldwide{
+  .fpage-worldwide {
     font-size: 15px !important;
   }
-  .fpage-details{
-    margin-top: 230px !important;
-  }
-}
-@media (max-width: 332px){
-  #red{
-    font-size: 14px;
+  .fpage-details {
+    margin-top: 210px !important;
   }
 }
 
-@media (min-width: 992px) {
-  #red {
-    margin-left: 370px;
+@media (max-width: 476px) and (min-width: 389px) {
+  #btn-applyNow {
+    width: 100% !important;
+    margin-top: 15px;
   }
-}
-/*FOR DIMENSION 769-991*/
-@media (min-width: 769px) and (max-width: 991px) {
   .fpage-title {
-    font-size: 55px !important;
+    font-size: 26px !important;
+  }
+  .bg-image {
+    margin-top: 130px !important;
+  }
+  .fpage-button {
+    font-size: 15px !important;
+    display: inline-block;
+    width: 100%;
   }
   .fpage-statement {
-    font-size: 21px !important;
+    font-size: 16px !important;
+  }
+  .fpage-worldwide {
+    font-size: 15px !important;
+  }
+  .fpage-details {
+    margin-top: 240px !important;
   }
 }
 
-@media (min-width: 1200px) {
-  #red {
-    margin-left: 550px;
+@media (max-width: 535px) and (min-width: 477px) {
+  #btn-applyNow {
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .fpage-title {
+    font-size: 30px !important;
+  }
+  .bg-image {
+    margin-top: 130px !important;
+  }
+  .fpage-button {
+    font-size: 15px !important;
+  }
+  .fpage-statement {
+    font-size: 19px !important;
+  }
+  .fpage-worldwide {
+    font-size: 15px !important;
+  }
+  .fpage-details {
+    margin-top: 250px !important;
   }
 }
 
@@ -133,6 +107,34 @@
   }
   .fpage-worldwide {
     font-size: 20px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #red {
+    margin-left: 130px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .fpage-title {
+    font-size: 55px !important;
+  }
+  .fpage-statement {
+    font-size: 21px !important;
+    margin-top: 10px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #red {
+    margin-left: 370px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #red {
+    margin-left: 550px;
   }
 }
 
@@ -228,4 +230,13 @@
 
 button {
   justify-items: center;
+}
+
+/*SECOND SECTION*/
+.S-section{
+  margin-top: 80px;
+}
+.fs-smaller {
+  font-size: 30px; /* Adjust this value to make the text smaller */
+  margin-bottom: 20px;
 }
