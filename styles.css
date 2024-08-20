@@ -132,12 +132,22 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1399px)  {
   #red {
     margin-left: 550px;
   }
+  .card-for-slider{
+    width: 100%;
+    height: 580px !important;
+    margin-top: 19px;
+  }
 }
 
+
+
+body{
+  font-family: 'Poppins';
+}
 /* Navbar Styling */
 .navbar {
   position: fixed;
@@ -240,3 +250,33 @@ button {
   font-size: 30px; /* Adjust this value to make the text smaller */
   margin-bottom: 20px;
 }
+
+/*THIRD SECTION*/
+.T-container-question{
+  margin-top: 90px;
+}
+.Cyberbacker-text{
+  font-weight: 800;
+  color:#198754;
+}
+.T-icon{
+  display: inline-block;
+  vertical-align: middle;
+  color: #198754;
+  width: 50px !important;
+}
+.T-text{
+  display: inline-block;
+  line-height: 36px;
+  margin-left: 23px;
+  font-weight: bold; 
+  font-size: 17px;
+  vertical-align: middle;
+  margin: 0;
+  margin-left: 10px;
+}
+.card-for-slider{
+  width: 100%;
+  height: 650px;
+}
+ 
