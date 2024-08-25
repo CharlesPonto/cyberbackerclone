@@ -130,21 +130,12 @@
   #red {
     margin-left: 370px;
   }
-  .card-for-slider{
-    width: 780px !important;
-    height: 100%; 
-    margin: auto !important;
-  }
   .Tcontainer-for-symbols{
     margin-left: 100px !important;
   }
   .Tcontainer-for-slider{
     height: 630px;
     width: 100%;
-  }
-  .slider-images{ 
-    width: 750px !important;
-    object-fit: fill !important;
   }
 }
 
@@ -264,9 +255,6 @@ button {
 }
 
 /*THIRD SECTION*/
-.T-container-question{
-  margin-top: 90px;;
-}
 .Cyberbacker-text{
   font-weight: 800;
   color:#198754;
@@ -287,15 +275,14 @@ button {
   margin: 0;
   margin-left: 10px;
 }
-.card-for-slider{
-  width: 95%;
-  height: 600px !important;
-  margin: auto !important;
-}
-.slider-images{
+.carousel-inner {
   width: 100%;
-  height: 550px !important;
-  object-fit: fill;
+  height: auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
 }
 
 /*FOURTH SECTION*/
