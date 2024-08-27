@@ -283,12 +283,12 @@ button {
 
 .Cyberbacker-text{
   font-weight: 800;
-  color:#198754;
+  color: #198754;
 }
 .T-icon{
   display: inline-block;
   vertical-align: middle;
-  color: #198754;
+  color:#198754;
   width: 50px !important;
 }
 .T-text{
@@ -321,16 +321,39 @@ button {
 .Fbackground-container{
   margin-top: 60px;
   width: 100%;
+  background-color: #198754; /* Your background color */
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50px;
 }
-.Fsection-title{
+.Fbackground-container::after {
+  content: "";
+  background-image: url('bg-image-for-actEvents.jpg'); /* Replace with your image path */
+  background-position: top;
+  opacity: 0.4; /* Adjust this value for desired opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure it stays behind any content */
+}
+.F-section-title{
   padding-top: 50px;
   font-size: 32px;
   font-weight: 600;
+  z-index: 2;
+  position: relative;
+}
+
+.card-for-actEvents{
+  z-index: 2;
 }
 
 /*ACTIVITIES AND EVENTS MODIFICATION*/
 .activities-events-title{
   font-size: 18px;
+  z-index: 3;
 }
 .underline-for-actEvents{
   background-color: #198754;
